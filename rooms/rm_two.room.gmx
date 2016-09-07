@@ -81,6 +81,10 @@
     <instance objName="obj_enemy_slime" x="352" y="288" name="inst_53B0575C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_slime" x="352" y="128" name="inst_4D78F1B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="32" y="0" name="inst_9A2536DB" locked="0" code="new_room = rm_one;&#xA;new_x = room_width - 64;&#xA;new_y = room_height - 52;&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy_chinlin" x="480" y="192" name="inst_1CF1124A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy_chinlin" x="128" y="256" name="inst_643C562A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy_chinlin" x="256" y="128" name="inst_1800868C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy_chinlin" x="544" y="96" name="inst_B15AAB78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

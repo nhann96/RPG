@@ -30,6 +30,12 @@
     <sprite>sprites\spr_health</sprite>
     <sprite>sprites\spr_sign</sprite>
     <sprite>sprites\spr_dialog_box</sprite>
+    <sprite>sprites\spr_chinlin_run_up</sprite>
+    <sprite>sprites\spr_chinlin_run_right</sprite>
+    <sprite>sprites\spr_chinlin_stand_down</sprite>
+    <sprite>sprites\spr_chinlin_stand_right</sprite>
+    <sprite>sprites\spr_chinlin_stand_up</sprite>
+    <sprite>sprites\spr_chinlin_run_down</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -85,6 +91,7 @@
       </objects>
       <objects name="Enemy">
         <object>objects\obj_enemy_slime</object>
+        <object>objects\obj_enemy_chinlin</object>
       </objects>
     </objects>
     <objects name="Static Objects">

@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>event_inherited();
+            <string>// Initialize enemies
+event_inherited();
 hp = 3;
 </string>
           </argument>
