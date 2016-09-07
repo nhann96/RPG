@@ -1,3 +1,3 @@
 ///scr_enemy_chase_state
-
-scr_enemy_move();
+scr_check_for_player();
+scr_enemy_move_axis();

@@ -50,7 +50,7 @@
       <scripts name="Enemy Helper Scripts">
         <script>scripts\scr_enemy_choose_next_state.gml</script>
         <script>scripts\scr_check_for_player.gml</script>
-        <script>scripts\scr_enemy_move.gml</script>
+        <script>scripts\scr_enemy_move_axis.gml</script>
       </scripts>
       <script>scripts\scr_enemy_idle_state.gml</script>
       <script>scripts\scr_enemy_stall_state.gml</script>
