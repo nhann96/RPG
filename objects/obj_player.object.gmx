@@ -137,6 +137,7 @@ if (obj_player_stats.hp &lt;= 0) {
             <string>/// Collect health
 
 with (other) {
+    audio_play_sound(snd_expr, 6, false);
     instance_destroy();
 }
 
@@ -168,6 +169,7 @@ with (obj_player_stats) {
             <string>/// Collect expr
 
 with (other) {
+    audio_play_sound(snd_expr, 6, false);
     instance_destroy();
 }
 

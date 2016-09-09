@@ -33,6 +33,39 @@ hp = 3;
         </arguments>
       </action>
     </event>
+    <event eventtype="1" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Create expr and drop health
+
+// Creates expr
+instance_create(x, y, obj_expr);
+audio_play_sound(snd_enemy_die, 5, false);
+
+// Drops health at around 50% chance
+if (scr_chance(0.5)) {
+    instance_create(x + random_range(-8, 8), y + random_range(-8, 8), obj_health);
+}
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
   </events>
   <PhysicsObject>0</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
